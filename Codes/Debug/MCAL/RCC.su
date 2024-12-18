@@ -1,0 +1,7 @@
+RCC.c:28:6:MCAL_RCC_Peripherals_enable	16	static
+RCC.c:66:6:MCAL_RCC_Peripherals_Reset	16	static
+RCC.c:100:6:MCAL_RCC_GetSYS_CLCKFreq	16	static
+RCC.c:188:10:MCAL_RCC_GetHCLKFreq	4	static
+RCC.c:213:10:MCAL_RCC_GetPCLK1Freq	4	static
+RCC.c:235:10:MCAL_RCC_GetPCLK2Freq	4	static
+RCC.c:256:10:MCAL_RCC_GetPCLK2_ADCFreq	4	static

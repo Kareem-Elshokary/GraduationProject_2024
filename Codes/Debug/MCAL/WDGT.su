@@ -1,0 +1,3 @@
+WDGT.c:20:6:IWDG_set	4	static
+WDGT.c:26:6:IWDG_RESET	4	static
+WDGT.c:32:6:IWDG_time_set	32	static

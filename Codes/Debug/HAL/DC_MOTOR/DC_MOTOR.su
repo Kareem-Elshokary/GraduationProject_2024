@@ -1,0 +1,2 @@
+DC_MOTOR.c:16:6:HAL_MOTOR_Init	8	static
+DC_MOTOR.c:23:6:HAL_MOTOR_Motion	16	static
