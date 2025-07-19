@@ -1,6 +1,6 @@
-            **GraduationProject_2024*
-**Design and Development of an Autonomous Self-parking Car*
-#
+#            *GraduationProject_2024*
+# *Design and Development of an Autonomous Self-parking Car*
+
 ## 📌 Overview
 This project presents the design and development of an autonomous self-parking system capable of detecting suitable parking spaces, selecting the appropriate parking type (parallel or perpendicular), and executing the parking and exit maneuvers automatically. It integrates Advanced Driver Assistance Systems (ADAS) concepts to enhance safety, reduce human error, and improve parking efficiency in tight urban environments.
 
