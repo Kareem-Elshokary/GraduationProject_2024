@@ -1,14 +1,32 @@
 #              GraduationProject_2024
 # Design and Development of an Autonomous Self-parking Car
 
-## Project Description:
-The goal of the self-parking system is to park the car efficiently, perpendicular/parallel to the curb, within the smallest available parking space and without the risk of collision.
+## 📌 Overview
+This project presents the design and development of an autonomous self-parking system capable of detecting suitable parking spaces, selecting the appropriate parking type (parallel or perpendicular), and executing the parking and exit maneuvers automatically. It integrates Advanced Driver Assistance Systems (ADAS) concepts to enhance safety, reduce human error, and improve parking efficiency in tight urban environments.
 
-## Contributions
-My work on this project centered around the development of the core self-parking logic.  Specifically:
+## 🧠 Features
+- Automatic detection of parking spaces.
+- Smart decision-making for choosing parking strategy.
+- Smooth and safe maneuvering using non-holonomic kinematic constraints.
+- Real-time obstacle detection and avoidance.
+- Full software architecture including MCAL, HAL, and Application Layer.
+- Real-time scheduling using RTOS.
+- MATLAB-based simulation and validation.
 
-  **Kinematic Equations:** Developed a set of kinematic equations that accurately model the car's motion, accounting for steering angle, speed, and other relevant parameters. This mathematical model is crucial for    precise path planning and control.
-  
-  **Path Planning Algorithm:** Created and implemented the algorithm responsible for generating appropriate parking paths, handling both parallel and perpendicular parking scenarios.
-  
-  **Verification and Validation:** Integrated and tested the system, verifying the connection between kinematic equations and the application for self-parking functionality.
+## 🛠️ Technologies & Components
+Hardware:
+- Custom-designed chassis and steering mechanism (inspired by BMW car dimensions)
+- STM32F103C8T6 (Bluepill)
+- Ultrasonic Sensors × 4
+- DC Motors × 2
+- Servo Motor × 1
+- L298N Motor Driver
+- Lithium Batteries, BMS, Voltage Regulators
+
+Software:
+- Path planning algorithms implemented & tested in MATLAB
+- Low-level drivers (MCAL): GPIO, RCC, EXTI, Timer, UART, I2C
+- Hardware Abstraction Layer (HAL) for motor and sensor control
+- Application Layer with custom path planning and control logic
+- Real-Time Operating System (RTOS) for task scheduling
+
